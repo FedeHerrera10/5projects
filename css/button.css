@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    background: #49505F;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+}
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+.btn:hover {
+    background-color: rgb(94, 104, 126);
+}
