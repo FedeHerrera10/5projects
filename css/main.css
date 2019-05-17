@@ -13,7 +13,13 @@ body * {
     margin-left: calc( (100% - 1300px) / 2 );
 }
 /* HEADER */
-.header-section{
+.header-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header-section .navbar {
     display: inline-block;
     float: left;
     width: 100%;
@@ -21,10 +27,11 @@ body * {
     text-align: center;
     margin: 0 0 20px;
 }
-.nav-section {
+.navbar {
     display: inline-block;
     padding: 25px;
 }
+
 /* HERO */
 .hero {
     background-image: url("../img/conquer.jpg");
