@@ -58,6 +58,14 @@ body * {
     display: flex;
     margin-top: 40px;
 }
+.main-area p {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 20px;
+}
 .area1 {
     width: 30%;
     float: left;
@@ -90,14 +98,15 @@ body * {
 .area4 {
     display: inline-block;
     width: calc( (100% - 2 * 20px) / 2 );
-    height: 500px;
+    /* height: 500px; */
     background-color: #3a4e5f33;
     float: left;
+    padding-bottom: 40px;
 } 
 .area5 {
     display: inline-block;
     width: calc( (100% - 2 * 20px) / 2 );
-    height: 500px;
+    /* height: 500px; */
     background-color: #3a4e5f33;
     float: right;
 }
@@ -105,4 +114,19 @@ body * {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+.father {
+    text-align: center
+}
+.fthr {
+    text-align: center;
+}
+.btn-main {
+    margin-top: 80px;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase; 
+    border-radius: 6%;
 }
