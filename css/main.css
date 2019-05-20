@@ -64,27 +64,23 @@ body * {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
-    padding: 20px;
+    padding: 27px;
 }
 .area1 {
     width: 30%;
     float: left;
-    height: 500px;
     background-color: #49505F;
     margin: auto auto auto 0;
 }
 .area2 {
     width: 30%;
     float: left;
-    /* margin: 0 10px; */
-    height: 500px;
     background-color: rgb(124, 91, 91);
     margin: auto;
   }
 .area3 {
     width: 30%;
     float: right;
-    height: 500px;
     background-color: #49505F;
     margin: auto;
     margin-right: 0;
@@ -98,15 +94,12 @@ body * {
 .area4 {
     display: inline-block;
     width: calc( (100% - 2 * 20px) / 2 );
-    /* height: 500px; */
     background-color: #3a4e5f33;
     float: left;
-    padding-bottom: 40px;
 } 
 .area5 {
     display: inline-block;
     width: calc( (100% - 2 * 20px) / 2 );
-    /* height: 500px; */
     background-color: #3a4e5f33;
     float: right;
 }
@@ -129,4 +122,28 @@ body * {
     color: #fff;
     text-transform: uppercase; 
     border-radius: 6%;
+    margin-bottom: 20px;
+}
+.two-column {
+    text-align: center;
+    margin: 20px 0 10px;
+    font-size: 28px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.tree-column {
+    padding-left: 27px;
+    margin: 20px 0 10px;
+    font-size: 28px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.two-column-p {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 27px;
 }
