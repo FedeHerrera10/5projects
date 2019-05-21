@@ -154,10 +154,10 @@ body * {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 500px;
+    height: 300px;
     }
 .type2 {
-    padding: 235px;
+    padding: 55px;
 }
 .first-line2 {
     color: #FFF;
@@ -167,6 +167,7 @@ body * {
     text-transform: uppercase;
 }
 .second-line2 {
+    margin-top: 30px;
     color: #fff;
     font-size: 25px;
     line-height: 25px;
