@@ -147,3 +147,30 @@ body * {
     line-height: 20px;
     padding: 10px 27px;
 }
+/* hero2 */
+.hero2 {
+    background-image: url("../img/hills.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 350px;
+    }
+.type2 {
+    padding: 55px;
+}
+.first-line2 {
+    color: #FFF;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.second-line2 {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
