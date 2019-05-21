@@ -154,7 +154,7 @@ body * {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 300px;
+    height: 350px;
     }
 .type2 {
     padding: 55px;
@@ -167,9 +167,9 @@ body * {
     text-transform: uppercase;
 }
 .second-line2 {
-    margin-top: 30px;
+    margin-top: 50px;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 25px;
     text-align: center;
     text-transform: capitalize;
