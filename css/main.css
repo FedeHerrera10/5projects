@@ -18,7 +18,8 @@ body * {
   justify-content: center;
   flex-wrap: nowrap;
   padding: 10px 0;
-  background: #fefefe;
+  opacity: 0.8;
+  background: #f7f7f7;
 }
 .navbar {
   width: 100%;
@@ -118,7 +119,14 @@ body * {
 .fthr {
   text-align: center;
 }
-.btn-main {
+
+.fthr {
+  background-color: #3a4e5f33;
+  color: #000;
+}
+
+.btn-main,
+.btn-detail {
   margin-top: 80px;
   display: inline-block;
   padding: 15px 40px;
@@ -126,17 +134,24 @@ body * {
   text-transform: uppercase;
   border-radius: 6%;
   margin-bottom: 20px;
-  color: #fff;
+  background-color: #3a4e5f33;
+  color: #f4f4f4;
   cursor: pointer;
+  transition: all 0.5s linear;
 }
+.btn-main:active,
+.btn-detail:active {
+  transform: scale(0.8);
+}
+
 .btn-main:hover,
-.fthr .btn-main:hover {
+.fthr .btn-main:hover,
+.btn-detail:hover {
   background-color: #54728d33;
 }
 
-.fthr .btn-main {
-  background-color: #3a4e5f33;
-  color: #000;
+.btn-detail {
+  color: black;
 }
 
 .two-column {
@@ -154,13 +169,14 @@ body * {
   line-height: 20px;
   text-transform: capitalize;
   margin-bottom: 20px;
+  color: #f4f4f4;
 }
 .two-column-p {
   display: inline-block;
-  float: left;
+  padding: 10px 27px;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 20px;
-  padding: 10px 27px;
 }
 .btn-collapse {
   display: none;
