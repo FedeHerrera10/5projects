@@ -1,17 +1,39 @@
 .btn {
-    display: inline-block;
-    background: #49505F;
-    color: #fff;
-    padding: 15px 25px;
-    text-decoration: none;
-    text-transform: capitalize;
-    border: 1px solid #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #49505f;
+  color: #fff;
 }
-.divider{
-    width:5px;
-    height:auto;
-    display:inline-block;
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
 }
 .btn:hover {
-    background-color: rgb(94, 104, 126);
+  background-color: rgb(94, 104, 126);
+}
+
+.btn-collapse::after {
+  display: block;
+  content: "";
+  background-image: url("../menu.png");
+  background-position: center;
+  background-size: cover;
+  height: 28px;
+  width: 28px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+  }
 }
