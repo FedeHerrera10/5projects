@@ -9,7 +9,7 @@
   color: #191919;
   font-size: 16px;
   font-weight: 400;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .divider {
@@ -18,7 +18,9 @@
   display: inline-block;
 }
 .btn:hover {
-  opacity: .75;
+  /* opacity: 0.75; */
+  background-color: #49505f;
+  color: white;
 }
 
 .btn-collapse::after {
