@@ -4,7 +4,7 @@ body * {
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 /* BODY */
 .wrapper {
@@ -29,9 +29,11 @@ body * {
   justify-content: center;
 }
 /* HERO */
+
 /* issue hero */
 .hero {
-  background-image: url("../img/conquer.jpg");
+  background: linear-gradient(to bottom, rgba(95, 95, 95, .3) 0%, rgba(95, 95, 95, .2) 100%), 
+  url(../img/conquer.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,9 +56,9 @@ body * {
   color: #f4f4f4;
   font-size: 52px;
   line-height: 34px;
-  font-weight: 400;
+  font-weight: 900;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .second-line {

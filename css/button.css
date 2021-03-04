@@ -1,3 +1,5 @@
+/* NAVIGATION */
+
 .btn {
   display: inline-block;
   padding: 15px 25px;
@@ -17,8 +19,8 @@
   height: auto;
   display: inline-block;
 }
+
 .btn:hover {
-  /* opacity: 0.75; */
   background-color: #49505f;
   color: white;
 }
@@ -41,4 +43,33 @@
     margin: 3px;
     text-align: center;
   }
+}
+
+/* HEADER */
+
+.header-btn {
+  margin-top: 25px;
+}
+
+.header-btn a {
+  border: 1px solid #78e08f;
+  color: #191919;
+  background-color: #78e08f;
+  padding: 13px 32px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.header-btn a:hover {
+  background-color: #4fd66d;
+  border: 1px solid #4fd66d;
 }
