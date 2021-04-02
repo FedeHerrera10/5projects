@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 600px) {
-  .btn {
+  .btn-navigation {
     width: 100%;
     margin: 3px;
     text-align: center;

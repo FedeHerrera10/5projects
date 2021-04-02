@@ -17,29 +17,41 @@
         <header class="header-section sticky">
             <button class="btn-collapse" id="btn-menu"></button>
             <nav class="navbar" id="navbar">
-                <a class="btn" href="">homepage</a>
+                <a class="btn btn-navigation" href="">homepage</a>
                 <div class="divider"></div>
-                <a class="btn" href="">about us</a>
+                <a class="btn btn-navigation" href="">about us</a>
                 <div class="divider"></div>
-                <a class="btn" href="">services</a>
+                <a class="btn btn-navigation" href="">services</a>
                 <div class="divider"></div>
-                <a class="btn" href="">contact</a>
+                <a class="btn btn-navigation" href="">contact</a>
                 <div class="divider"></div>
-                <a class="btn" href="">external</a>
+                <a class="btn btn-navigation" href="">external</a>
             </nav>
         </header>
         <!-- HERO -->
         <div class="hero">
-            <div class="container">
-                <div class="type">
-                    <h1 class="first-line">Living forest</h1>
-                    <h4 class="second-line">One person, one tree.</h4>
-                    <div class="header-btn">
-                        <a href="#">More information</a>
-                    </div>
-                </div>
+            <div class="container-slider">
+            <div class="arrow arrow-left">
+                <button class="arrow" id="sliderLeft">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+            </div>
+            <div class="slider">
+                    <img src="./img/conquer.jpg">
+                    <button class="btn btn-slider" >More Info</button>
+            </div>
+            <div class="slider">
+                    <img src="./img/slider2.jpg">
+                    <button class="btn">More Info here</button>
+            </div>
+            <div class="arrow arrow-rigth">
+                <button class="arrow" id="sliderRigth">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+            </div>
             </div>
         </div>
+        
         <!-- INFO-SECTION I -->
         <div class="main-area">
             <div class="area1">
@@ -89,7 +101,7 @@
                             <div class="btn-detail" >see details</div>
                         </div>
                 </div>
-            </div> 
+            </div>
 
     </div>
     <script src=js/data.js></script>
